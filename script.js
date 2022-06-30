@@ -1,16 +1,16 @@
-// function person(name,age){
-//     this.fullname = name;
-//     this.Age = age;
-// }
+function person(name,age){
+    this.fullname = name;
+    this.Age = age;
+}
 
-// const myFather = new person("David",34)
-// const myMother = new person("Sara",33)
-// person.prototype.eyecolor = "green";
-// person.prototype.toString=function(){
-//     return this.fullname+" "+this.Age+" "+this.eyecolor
-// }
-// console.log(Number.MIN_SAFE_INTEGER)
-// console.log(Number.MIN_VALUE)
+const myFather = new person("David",34)
+const myMother = new person("Sara",33)
+person.prototype.eyecolor = "green";
+person.prototype.toString=function(){
+    return this.fullname+" "+this.Age+" "+this.eyecolor
+}
+console.log(Number.MIN_SAFE_INTEGER)
+console.log(Number.MIN_VALUE)
 // document.getElementById("demo").innerHTML ;
 // "Father : "+myFather.fullname+" age : "+myFather.Age+
 // " Mother : "+myMother.fullname+" age : "+myMother.Age+" "+myMother.eyecolor+
