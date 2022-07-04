@@ -2,3 +2,9 @@ button{
     display: block;
     margin-bottom: 30px;
 }
+body{
+    direction: rtl;
+}
+h1{
+    font-style: italic;
+}
